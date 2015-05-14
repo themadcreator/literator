@@ -1,0 +1,36 @@
+{
+  "name": "literator",
+  "version": "1.0.0",
+  "description": "docco + mustache templates",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {
+    "docco"    : "^0.7.0",
+    "highland" : "^2.5.0",
+    "lodash"   : "^3.8.0",
+    "vinyl-fs" : "^1.0.1"
+  },
+  "devDependencies": {
+    "coffee-script"  : "^1.9.2",
+    "katex"          : "^0.2.0",
+    "gulp"           : "^3.8.11",
+    "gulp-util"      : "^3.0.4",
+    "gulp-webserver" : "^0.9.1",
+    "vinyl-fs"       : "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/themadcreator/literator.git"
+  },
+  "author": "Bill Dwyer <themadcreator@github>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/themadcreator/literator/issues"
+  },
+  "homepage": "https://github.com/themadcreator/literator"
+}
